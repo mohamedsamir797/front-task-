@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+/* nav style ------------------------------------------- */
+nav {
+    /* background-color: red; */
+    width: 100%;
+    height: 90px;
+}
+nav div {
+    float: left;
+}
+#logo {
+    /* background-color: blue; */
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+#logo img {
+    padding-left: 58px;
+    padding-top: 30px;
+}
+#list {
+    /* background-color: green; */
+    width: 75%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+#list ul {
+    margin-left: 80px;
+    margin-top: 24px;
+}
+#list ul li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Roboto",sans-serif;
+
+}
+
+#butt {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 70px;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#butt:hover {
+    border: 2px solid blue;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover {
+    color: blue;
+}
+#active {
+   color: blue;
+}
+
+/* nav style End ------------------------------------------- */
+
+
+/* main banner ------------------------------------------- */
+
+#main {
+    /* background-color: red; */
+    height: 651px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#sec {
+    background-color: #384aeb;
+    height: 100%;
+    width: 40%;
+}
+#main div {
+    float: left;
+}
+#head {
+    /* background-color: yellow; */
+    height: 100%;
+    width: 30%;
+    margin-left: 100px;
+    
+}
+#sec img {
+    height: 90%;
+    width: 459px;
+    padding-left: 150px;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+#new {
+    padding-top: 255px;
+}
+
+#new h4 {
+    font-size: 30px;
+    font-family: "Roboto",sans-serif;
+    color: #555555;
+    margin-bottom: 12px;
+}
+
+#new h1 {
+    font-family: "Roboto",sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}
+
+#new p {
+    color: #777;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+}
+
+#browse {
+    background-color: #384aeb;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 45px;
+    color: white;
+    font-weight: bold ;
+}
+
+#browse:hover {
+    background-color: white;
+    color: #384aeb;
+    border: #384aeb solid 2px;
+}
+
+/* main banner End ------------------------------------------- */
+
+#port {
+    /* background-color: red; */
+    height: 400px;
+    width: 99%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#port div {
+    float: left;
+    width: 33%;
+    height: 100%;
+    margin: 1px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#d1 {
+    background-image: url("../img/hero-slide1.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+#port img {
+    width: 100%;
+    height: 100%;
+}
+
+#port img h1 {
+    position:absolute;
+    top: 0px;
+}
+
+
+#port img:hover {
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+}
+
+
+#trend {
+    width: 100%;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+#trend p {
+    color: #777;
+    font-family: roboto,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+}
+
+#trend h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#trend h1 {
+    font-family: oswald,sans-serif;
+    color: #222;
+    line-height: 1.1;
+}
+
+#trend hr {
+    font-weight: bold;
+    font-size: 30px;
+    color:  #384aeb;
+    width: 110px;
+    position:absolute;
+     left: 259px;
+     border: solid 3px #384aeb ;
+}
+
+#small {
+    /* background-color: red; */
+    height: 520px;
+    width: 97%;
+    margin:auto;
+    text-align: center;
+    
+    font-family: oswald,sans-serif;
+}
+
+#small div {
+  width: 24%;
+  height: 100%;
+  margin-left: 7px;
+  background-color: rgba(255, 255, 255, 0.9);
+  float: left;
+  overflow: hidden;
+}
+
+#small img:hover {
+    opacity: 40%;
+    height: 60%;
+}
+
+#small img {
+    width: 100%;
+    height: 360px;
+}
+#small h4:hover {
+    color : #384aeb ;
+}
+
+/* another part ---------------------------- */
+
+#big {
+    /* background-color: red; */
+    height: 620px;
+    width: 97%;
+    margin:auto;
+    text-align: center;
+    
+    font-family: oswald,sans-serif;
+}
+
+#big div {
+  width: 24%;
+  height: 100%;
+  margin-left: 7px;
+  background-color: rgba(255, 255, 255, 0.9);
+  float: left;
+  overflow: hidden;
+}
+
+#big img:hover {
+    opacity: 40%;
+    height: 60%;
+}
+
+#big img {
+    width: 100%;
+    height: 360px;
+}
+#big h4:hover {
+    color : #384aeb ;
+}
+
+/* cover ------------------------------------------- */
+
+#cover {
+    background-image: url("../img/parallax-bg.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+.pos {
+    position:absolute;
+    left: 20%;
+    margin-top: 40px;
+}
+.pos h1 {
+    font-family: oswald,sans-serif;
+   color: #222222;
+   font-size: 40px;
+}
+
+.pos h2 {
+    font-family: oswald,sans-serif;
+    color: #222222;
+}
+
+.pos p {
+    font-family: roboto,sans-serif;
+    color: #555;
+}
+
+.pos button {
+    background-color: #384aeb;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.pos button:hover {
+    background-color: #98c5d7;
+    border: solid 2px #384aeb ;
+    color: black;
+}
